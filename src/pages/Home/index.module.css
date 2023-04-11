@@ -184,9 +184,9 @@
   .boxText {
     width: 100%;
   }
-  .boxText h2 {
+  /* .boxText h2 {
     padding: 0;
-  }
+  } */
   .boxText p {
     padding: 0;
   }
