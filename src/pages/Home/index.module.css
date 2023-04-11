@@ -19,6 +19,10 @@
 .boxDown > :last-child {
   width: 33.333%;
 }
+.boxText {
+  width: 100%;
+  min-width: 360px;
+}
 .partText p {
   padding: 0 30px 0 30px;
   font-size: 16px;
@@ -60,6 +64,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
+  min-width: 360px;
   height: 100%;
 }
 
