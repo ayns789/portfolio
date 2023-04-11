@@ -357,7 +357,7 @@ a {
   box-shadow: -38vmin 0 5.029488482072573vmin currentColor;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 410px) {
   .background {
     height: 38vh;
   }
@@ -373,4 +373,4 @@ a {
     top: 38vh;
     height: 30px;
   }
-} */
+}
