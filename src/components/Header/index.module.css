@@ -361,4 +361,16 @@ a {
   .background {
     height: 38vh;
   }
+  .bandeColorDegradeTop {
+    top: 0;
+    height: 30px;
+  }
+  .bandeColorDegradeBottom {
+    top: 35vh;
+    height: 30px;
+  }
+  .bandeColorDegradeDown {
+    top: 38vh;
+    height: 30px;
+  }
 }
