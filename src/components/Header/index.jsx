@@ -6,7 +6,7 @@ const Header = () => {
   let alpha = ['A', 'J', 'l', 'n', 'o', 's', 'y'];
   return (
     <>
-      <div className={styles.contentHeader}>
+      <header className={styles.contentHeader}>
         <div className={styles.background}>
           <div className={styles.contentUnder}>
             <div className={`${styles.contentUnderFront} ${styles.face}`}>
@@ -46,7 +46,7 @@ const Header = () => {
         <div className={styles.bandeColorDegradeTop}></div>
         <div className={styles.bandeColorDegradeBottom}></div>
         <div className={styles.bandeColorDegradeDown}></div>
-      </div>
+      </header>
     </>
   );
 };
