@@ -257,7 +257,7 @@ const Carousel = () => {
                     <br />
                     CSS Sass & Nesting.
                     <br />
-                    Animations css.
+                    Animations CSS.
                     <br />
                     Réalisation d'un loading spinner.
                   </p>
