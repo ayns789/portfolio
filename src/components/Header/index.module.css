@@ -193,7 +193,7 @@ a {
   width: 100vw;
   height: 42vh;
   min-width: 360px;
-  min-height: 300px;
+  /* min-height: 300px; */
   top: 0;
   left: 0;
   background: #3e1e68;
@@ -355,4 +355,10 @@ a {
   animation-delay: -21s;
   transform-origin: -4vw 0vh;
   box-shadow: -38vmin 0 5.029488482072573vmin currentColor;
+}
+
+@media screen and (max-width: 600px) {
+  .background {
+    height: 50vh;
+  }
 }
