@@ -179,6 +179,9 @@
   .boxText {
     width: 100%;
   }
+  .partText {
+    width: calc(100% - 10px - 10px);
+  }
 }
 
 @media screen and (max-width: 430px) {
