@@ -151,11 +151,11 @@
     font-size: 16px;
   }
   .popup {
-    width: 100%;
+    min-width: 100%;
   }
   .partTextImg {
     margin-top: 60px;
-    width: 100%;
+    min-width: 100%;
   }
   .boxText {
     display: flex;
