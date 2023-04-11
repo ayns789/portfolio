@@ -190,9 +190,9 @@
   .boxText p {
     padding: 0;
   }
-  .partText {
+  /* .partText {
     width: calc(100% - 10px - 10px);
-  }
+  } */
 }
 
 @media screen and (max-width: 430px) {
