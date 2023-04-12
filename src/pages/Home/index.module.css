@@ -2,7 +2,7 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 55vh; /* 58 */
+  height: 60vh; /* 58 */
   background: white;
 }
 .boxDown {
@@ -31,13 +31,6 @@
 .partTextImg {
   margin-top: 18px;
   width: 100%;
-}
-.boxDown {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 .container {
