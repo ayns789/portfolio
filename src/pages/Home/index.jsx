@@ -16,6 +16,7 @@ import logoStarUml from '../../assets/images/staruml_94078.png';
 import logoVScode from '../../assets/images/visual-studio.png';
 import logoWix from '../../assets/images/wix.png';
 import logoWordpress from '../../assets/images/wordpress-logo.png';
+import logoChatGpt from '../../assets/images/chatgpt-icon.png';
 
 const Home = () => {
   return (
@@ -61,11 +62,12 @@ const Home = () => {
                 <img src={logoGithub} alt='logo Github' className={styles.logoTech} />
                 <img src={logoNetlify} alt='logo Netlify' className={styles.logoTech} />
                 <img src={logoFirebase} alt='logo Firebase' className={styles.logoTech} />
-                <img src={logoMySql} alt='logo MySql' className={styles.logoTech} />
-                <img src={logoPostgreSql} alt='logo PostgreSql' className={styles.logoTech} />
+                <img src={logoMySql} alt='logo My Sql' className={styles.logoTech} />
+                <img src={logoPostgreSql} alt='logo Postgre Sql' className={styles.logoTech} />
+                <img src={logoChatGpt} alt='logo Chat Gpt' className={styles.logoTech} />
                 <img src={logoBalsamiq} alt='logo Balsamiq' className={styles.logoTech} />
                 <img src={logoFigma} alt='logo Figma' className={styles.logoTech} />
-                <img src={logoStarUml} alt='logo StarUml' className={styles.logoTech} />
+                <img src={logoStarUml} alt='logo Star Uml' className={styles.logoTech} />
                 <img src={logoWordpress} alt='logo Wordpress' className={styles.logoTech} />
                 <img src={logoWix} alt='logo Wix' className={styles.logoTech} />
               </div>

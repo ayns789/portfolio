@@ -62,6 +62,9 @@
   max-height: 3em;
   margin-right: 1em;
 }
+.popup .logoTech:nth-child(3) {
+  border-radius: 15%;
+}
 
 .partTextImg {
   margin-top: 18px;
