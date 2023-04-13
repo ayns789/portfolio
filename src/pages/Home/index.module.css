@@ -63,21 +63,8 @@
   max-width: 3em;
   max-height: 3em;
   margin-right: 1em;
-  /* object-fit: cover; */
 }
-/* .popup:nth-child(5) .logoTech,
-.popup:nth-child(7) .logoTech,  
-.popup:nth-child(8) .logoTech { */
-/* .popup .logoTech:nth-child(5), */
-.popup .logoTech:nth-child(7),  
-.popup .logoTech:nth-child(8) {
-  /* height: 100%;
-  width: 100%;
-  max-width: 3em; */
-  /* max-height: 1em; */
-  height: 1.5em;
-  object-fit: cover;
-}
+
 .partTextImg {
   margin-top: 18px;
   width: 100%;
