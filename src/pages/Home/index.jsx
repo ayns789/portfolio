@@ -52,7 +52,7 @@ const Home = () => {
                 </p>
                 <p>N'hésitez pas à me contacter pour de plus amples informations.</p>
               </div>
-              <div className={styles.popup}>
+              <div className={styles.containerIcn}>
                 {/* <img src={logoTech} alt='' className={styles.partTextImg} /> */}
                 <img src={logoHtml} alt='logo Html' className={styles.logoTech} />
                 <img src={logoCss} alt='logo Css' className={styles.logoTech} />

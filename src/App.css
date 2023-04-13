@@ -269,6 +269,24 @@ a {
     min-width: 350px;
   }
 }
+/* @media screen and (max-width: 575px) {
+  .body-carousel {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .swiper_container {
+    min-width: 350px;
+  }
+}
+@media screen and (max-width: 575px) {
+  .body-carousel {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .swiper_container {
+    min-width: 350px;
+  }
+} */
 
 /* @media screen and (max-width: 1700px) {
   .swiper {
