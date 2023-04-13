@@ -1,114 +1,23 @@
 import styles from './index.module.css';
 import Header from '../../components/Header/index.jsx';
 import Carousel from '../../components/Carousel/index.jsx';
-// import TextScramble from '../../utils/TextScramble.js';
-import logoTech from '../../assets/images/logoTech.png';
+import logoBalsamiq from '../../assets/images/balsamiq_mockups_macos_bigsur_icon_190357.png';
+import logoCss from '../../assets/images/css.png';
+import logoFigma from '../../assets/images/figma.png';
+import logoFirebase from '../../assets/images/firebase_logo_icon_168209.png';
+import logoGithub from '../../assets/images/github-sign.png';
+import logoHtml from '../../assets/images/html-5.png';
+import logoJavascript from '../../assets/images/js.png';
+import logoMySql from '../../assets/images/mysql.png';
+import logoNetlify from '../../assets/images/netlify_logo_icon_169924.png';
+import logoPostgreSql from '../../assets/images/postgre.png';
+import logoReact from '../../assets/images/react.png';
+import logoStarUml from '../../assets/images/staruml_94078.png';
+import logoVScode from '../../assets/images/visual-studio.png';
+import logoWix from '../../assets/images/wix.png';
+import logoWordpress from '../../assets/images/wordpress-logo.png';
 
 const Home = () => {
-  // ——————————————————————————————————————————————————
-  // TextScramble
-  // ——————————————————————————————————————————————————
-
-  //   const [textScramble, setTextScramble] = useState('');
-  //   let chars = '!<>-_\\/[]{}—=+*^?#________';
-  //   const phrases = [
-  //     'Balsamiq / Marvel App / Figma',
-  //     'Star Uml / Power Amc',
-  //     'Wix / Wordpress',
-  //     'HTML / CSS / Javascript',
-  //     'React / Redux Toolkit',
-  //     'CryptoJs / Recharts',
-  //     'Firebase / Netlify',
-  //     'MySql Workbench / PostgreSql',
-  //   ];
-
-  //   function scrambleText() {
-  //     let phraseIndex = 0;
-  //     let charIndex = 0;
-  //     let newText = '';
-
-  //     const scrambleInterval = setInterval(() => {
-  //       newText = phrases[phraseIndex].slice(0, charIndex);
-  //       for (let i = charIndex; i < phrases[phraseIndex].length; i++) {
-  //         newText += chars[Math.floor(Math.random() * chars.length)];
-  //       }
-  //       setTextScramble(newText);
-
-  //       charIndex++;
-  //       if (charIndex > phrases[phraseIndex].length) {
-  //         phraseIndex++;
-  //         charIndex = 0;
-  //         if (phraseIndex >= phrases.length) {
-  //           clearInterval(scrambleInterval);
-  //           setTextScramble(phrases[phrases.length - 1]);
-  //         }
-  //       }
-  //     }, 50);
-  //   }
-
-  //   useEffect(() => {
-  //     scrambleText();
-  //     // eslint-disable-next-line react-hooks/exhaustive-deps
-  //   }, []);
-
-  //   function scrambleText() {
-  //     let phraseIndex = 0;
-  //     let charIndex = 0;
-  //     let newText = '';
-
-  //     const scrambleInterval = setInterval(() => {
-  //       newText = phrases[phraseIndex].slice(0, charIndex);
-  //       for (let i = charIndex; i < phrases[phraseIndex].length; i++) {
-  //         newText += chars[Math.floor(Math.random() * chars.length)];
-  //       }
-  //       setTextScramble(newText);
-
-  //       charIndex++;
-  //       if (charIndex > phrases[phraseIndex].length) {
-  //         clearInterval(scrambleInterval);
-  //         setTimeout(() => {
-  //           const unscrambleInterval = setInterval(() => {
-  //             newText = phrases[phraseIndex].slice(0, charIndex);
-  //             setTextScramble(newText);
-
-  //             charIndex--;
-  //             if (charIndex < 0) {
-  //               clearInterval(unscrambleInterval);
-  //               phraseIndex++;
-  //               if (phraseIndex >= phrases.length) {
-  //                 phraseIndex = 0;
-  //               }
-  //               setTimeout(() => {
-  //                 scrambleText();
-  //               }, 3000);
-  //             }
-  //           }, 30);
-  //         }, 1000);
-  //       }
-  //     }, 30);
-  //   }
-
-  //   useEffect(() => {
-  //     scrambleText();
-  //     // eslint-disable-next-line react-hooks/exhaustive-deps
-  //   }, []);
-  // //  setTimeout(() => {
-  //   document.addEventListener('DOMContentLoaded', function () {
-  //     const popup = document.querySelector('.popup');
-  //     const image = document.querySelector('.partTextImg');
-
-  //     image.addEventListener('click', function () {
-  //       popup.classList.add('show');
-  //     });
-
-  //     popup.addEventListener('click', function (event) {
-  //       if (event.target === popup) {
-  //         popup.classList.remove('show');
-  //       }
-  //     });
-  //   });
-  // // }, 80);
-
   return (
     <>
       <div className={styles.contentHome}>
@@ -143,11 +52,23 @@ const Home = () => {
                 <p>N'hésitez pas à me contacter pour de plus amples informations.</p>
               </div>
               <div className={styles.popup}>
-                <img src={logoTech} alt='' className={styles.partTextImg} />
+                {/* <img src={logoTech} alt='' className={styles.partTextImg} /> */}
+                <img src={logoHtml} alt='logo Html' className={styles.logoTech} />
+                <img src={logoCss} alt='logo Css' className={styles.logoTech} />
+                <img src={logoJavascript} alt='logo Javascript' className={styles.logoTech} />
+                <img src={logoVScode} alt='logo VScode' className={styles.logoTech} />
+                <img src={logoReact} alt='logo React' className={styles.logoTech} />
+                <img src={logoGithub} alt='logo Github' className={styles.logoTech} />
+                <img src={logoNetlify} alt='logo Netlify' className={styles.logoTech} />
+                <img src={logoFirebase} alt='logo Firebase' className={styles.logoTech} />
+                <img src={logoMySql} alt='logo MySql' className={styles.logoTech} />
+                <img src={logoPostgreSql} alt='logo PostgreSql' className={styles.logoTech} />
+                <img src={logoBalsamiq} alt='logo Balsamiq' className={styles.logoTech} />
+                <img src={logoFigma} alt='logo Figma' className={styles.logoTech} />
+                <img src={logoStarUml} alt='logo StarUml' className={styles.logoTech} />
+                <img src={logoWordpress} alt='logo Wordpress' className={styles.logoTech} />
+                <img src={logoWix} alt='logo Wix' className={styles.logoTech} />
               </div>
-              {/* <div className={styles.container}>
-                <div className={styles.textEffect}>{textScramble} </div>
-              </div> */}
             </div>
           </div>
         </section>

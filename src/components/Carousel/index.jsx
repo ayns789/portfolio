@@ -30,7 +30,8 @@ const Carousel = () => {
             depth: 100,
             modifier: 2.5,
           }}
-          pagination={{ el: 'swiper-pagination', clickable: true }}
+          initialSlide={1}
+          pagination={{ el: '.swiper-pagination', clickable: true }}
           navigation={{
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
@@ -38,7 +39,7 @@ const Carousel = () => {
           }}
           modules={[EffectCoverflow, Pagination, Navigation]}
           className='swiper_container'
-          autoplay={{ delay: 3000 }}
+          // autoplay={{ delay: 3000 }}
         >
           <div className='slide-content'>
             <div className='card-wrapper swiper-wrapper'>
@@ -57,7 +58,6 @@ const Carousel = () => {
                   </h2>
                 </div>
               </SwiperSlide>
-
               <SwiperSlide className='card swiper-slide'>
                 <div className='image-content'>
                   <span className='overlay'></span>
