@@ -296,10 +296,10 @@
       width: 100%;
     }
     .containerIcn {
-      width: calc(100% - 10px  10px);
+      width: calc(100% - 10px - 10px);
     }
     .containerIcn .logoTech{
-      width: calc(100% - 10px  10px);
+      width: calc(100% - 10px - 10px);
     }
   }
 @media screen and (max-width: 410px) {
