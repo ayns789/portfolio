@@ -3,6 +3,7 @@
   bottom: 0;
   top: 40vh;
   width: 100%;
+  min-width: 350px;
   height: 60vh; /* 58 */
   background: white;
 }

@@ -1,6 +1,7 @@
 .contentHeader {
   width: 100%;
   min-height: 250px;
+  min-width: 350px;
 }
 
 .contentUnder {
@@ -192,7 +193,7 @@ a {
   position: absolute; /* fixed */
   width: 100vw;
   height: 36vh;
-  /* min-width: 400px; */
+  /* min-width: 350px; */
   /* min-height: 400px; */
   top: 0;
   left: 0;
