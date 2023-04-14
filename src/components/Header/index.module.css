@@ -193,7 +193,7 @@ a {
   width: 100vw;
   height: 36vh;
   min-width: 400px;
-  min-height: 400px;
+  /* min-height: 400px; */
   top: 0;
   left: 0;
   background: #3e1e68;

@@ -1,6 +1,7 @@
 .contentDownSection {
   position: absolute;
   bottom: 0;
+  top: 2em;
   width: 100%;
   height: 60vh; /* 58 */
   background: white;
