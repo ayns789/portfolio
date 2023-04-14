@@ -224,7 +224,7 @@
   }
 
   /* .boxDown > :last-child {
-      margin-top: 5em;
+      margin-top: 3em;
       width: 100%;
     } */
   .boxText {
@@ -278,3 +278,24 @@
   }
   
 }
+@media screen and (max-width: 552px) {
+  .boxDown > :last-child {
+      margin-top: 6em;
+      width: 100%;
+    }
+  }
+@media screen and (max-width: 520px) {
+  .boxDown > :last-child {
+      margin-top: 8em;
+      width: 100%;
+    }
+  }
+@media screen and (max-width: 440px) {
+  .boxDown > :last-child {
+      margin-top: 12em;
+      width: 100%;
+    }
+    .containerIcn {
+      width: calc(100% - 10px  10px);
+    }
+  }
