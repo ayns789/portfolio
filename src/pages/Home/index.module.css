@@ -302,8 +302,3 @@
       width: calc(100% - 10px - 10px);
     }
   }
-@media screen and (max-width: 410px) {
-  .boxDown > :last-child {
-      margin-top: 14em;
-    }
-  }
