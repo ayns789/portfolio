@@ -35,6 +35,7 @@ a {
   backface-visibility: hidden;
   transform: perspective(500px) rotateY(0deg);
   border: 1px solid gold;
+  border: 1px solid #EEEEEE;
 }
 
 .contentUnder .face h2,
@@ -50,6 +51,7 @@ a {
   align-items: center;
   border-radius: 15px;
   background: rgba(44, 62, 80, 0.6);
+  background: rgba(96, 112, 128, 0.6);
   color: white;
   animation-name: rotate-card;
   animation-duration: 10s;
@@ -63,6 +65,7 @@ a {
   align-items: center;
   border-radius: 15px;
   background: rgba(44, 62, 80, 0.6);
+  background: rgba(96, 112, 128, 0.6);
   color: white;
   transform: perspective(500px) rotateY(180deg);
   animation-name: rotate-card2;
