@@ -51,16 +51,17 @@
 }
 .containerIcn {
   /* height: 100%; */
-  width: 90%;
+  width: 80%;
+  min-width: 350px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1em;
-  padding:15px;
-  margin: 0 15px 0 15px;
-  /* filter: grayscale(60%); */
+  gap: 0.8em;
+  padding: 15px;
+  margin: 0 150px 0 150px;
+  /* filter: grayscale(20%); */
   position: relative;
   /* filter: opacity(70%); */
   /* filter: saturate(50%) opacity(70%) ; */
