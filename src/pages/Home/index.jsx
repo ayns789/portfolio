@@ -45,10 +45,10 @@ const Home = () => {
                 </p>
 
                 <p>
-                  • Référent digital / certifications Wordpress & méthodes Agiles
-                  <br /> • Développeur web Java ( niveau 5 )<br /> • Concepteur développeur
-                  d'applications ( niveau 6 )<br /> • Développeur d'application - JavaScript React (
-                  niveau 6 )
+                  • Référent digital / certifications Wordpress & méthodes Agiles.
+                  <br /> • Développeur web Java ( niveau 5 ).
+                  <br /> • Concepteur développeur d'applications ( niveau 6 ).
+                  <br /> • Développeur d'application - JavaScript React ( niveau 6 ).
                 </p>
                 <p>N'hésitez pas à me contacter pour de plus amples informations.</p>
               </div>
