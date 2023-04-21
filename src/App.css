@@ -251,7 +251,7 @@ a {
   background-color: #fff;
   background-color: #666666;
   /* background-color: #42A4EB; */
-  /* background-color: #7D31D4; */
+  background-color: #7D31D4;
   /* background-color: #CCCCCC; */
   /* background-color: #eeeeee; */
   border: 1px solid #4C5048;
@@ -293,6 +293,7 @@ a {
   color: black;
   color: white;
   background-color: #666666;
+  background-color: #7D31D4;
   border: 1px solid #4C5048;
   /* border: none; */
 }
