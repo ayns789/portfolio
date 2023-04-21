@@ -53,23 +53,70 @@ const Home = () => {
                 <p>N'hésitez pas à me contacter pour de plus amples informations.</p>
               </div>
               <div className={styles.containerIcn}>
-                {/* <img src={logoTech} alt='' className={styles.partTextImg} /> */}
-                <img src={logoHtml} alt='logo Html' className={styles.logoTech} />
-                <img src={logoCss} alt='logo Css' className={styles.logoTech} />
-                <img src={logoJavascript} alt='logo Javascript' className={styles.logoTech} />
-                <img src={logoVScode} alt='logo VScode' className={styles.logoTech} />
-                <img src={logoReact} alt='logo React' className={styles.logoTech} />
-                <img src={logoGithub} alt='logo Github' className={styles.logoTech} />
-                <img src={logoNetlify} alt='logo Netlify' className={styles.logoTech} />
-                <img src={logoFirebase} alt='logo Firebase' className={styles.logoTech} />
-                <img src={logoMySql} alt='logo My Sql' className={styles.logoTech} />
-                <img src={logoPostgreSql} alt='logo Postgre Sql' className={styles.logoTech} />
-                <img src={logoChatGpt} alt='logo Chat Gpt' className={styles.logoTech} />
-                <img src={logoBalsamiq} alt='logo Balsamiq' className={styles.logoTech} />
-                <img src={logoFigma} alt='logo Figma' className={styles.logoTech} />
-                <img src={logoStarUml} alt='logo Star Uml' className={styles.logoTech} />
-                <img src={logoWordpress} alt='logo Wordpress' className={styles.logoTech} />
-                <img src={logoWix} alt='logo Wix' className={styles.logoTech} />
+                <div className={styles.techContainer}>
+                  <img src={logoHtml} alt='logo Html' className={styles.logoTech} />
+                  <span>Html</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoCss} alt='logo Css' className={styles.logoTech} />
+                  <span>Css</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoJavascript} alt='logo Javascript' className={styles.logoTech} />
+                  <span>Javascript</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoVScode} alt='logo VScode' className={styles.logoTech} />
+                  <span>Visual Studio code</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoReact} alt='logo React' className={styles.logoTech} />
+                  <span>React</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoGithub} alt='logo Github' className={styles.logoTech} />
+                  <span>Github</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoNetlify} alt='logo Netlify' className={styles.logoTech} />
+                  <span>Netlify</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoFirebase} alt='logo Firebase' className={styles.logoTech} />
+                  <span>Firebase</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoMySql} alt='logo My Sql' className={styles.logoTech} />
+                  <span>MySql</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoPostgreSql} alt='logo Postgre Sql' className={styles.logoTech} />
+                  <span>PostgreSql</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoChatGpt} alt='logo Chat Gpt' className={styles.logoTech} />
+                  <span>Chat GPT</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoBalsamiq} alt='logo Balsamiq' className={styles.logoTech} />
+                  <span>Balsamiq</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoFigma} alt='logo Figma' className={styles.logoTech} />
+                  <span>Figma</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoStarUml} alt='logo Star Uml' className={styles.logoTech} />
+                  <span>Star Uml</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoWordpress} alt='logo Wordpress' className={styles.logoTech} />
+                  <span>Wordpress</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoWix} alt='logo Wix' className={styles.logoTech} />
+                  <span>Wix</span>
+                </div>
               </div>
             </div>
           </div>
