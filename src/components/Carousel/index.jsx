@@ -87,7 +87,7 @@ const Carousel = () => {
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <button className='button'>Voir le site</button>
+                    <button className='button'>Visiter le site</button>
                   </a>
                 </div>
               </SwiperSlide>
@@ -125,7 +125,7 @@ const Carousel = () => {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      <button className='button'>Voir le site</button>
+                      <button className='button'>Visiter le site</button>
                     </a>
                   </div>
                 </div>
@@ -194,7 +194,7 @@ const Carousel = () => {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      <button className='button'>Voir le site</button>
+                      <button className='button'>Visiter le site</button>
                     </a>
                   </div>
                 </div>
@@ -233,7 +233,7 @@ const Carousel = () => {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      <button className='button'>Voir le site</button>
+                      <button className='button'>Visiter le site</button>
                     </a>
                   </div>
                 </div>
@@ -275,7 +275,7 @@ const Carousel = () => {
                       target='_blank'
                       rel='noopener noreferrer'
                     >
-                      <button className='button'>Voir le site</button>
+                      <button className='button'>Visiter le site</button>
                     </a>
                   </div>
                 </div>
