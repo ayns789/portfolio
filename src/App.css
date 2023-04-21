@@ -250,8 +250,8 @@ a {
   padding: 8px 16px;
   background-color: #fff;
   background-color: #666666;
-  background-color: #42A4EB;
-  background-color: #7D31D4;
+  /* background-color: #42A4EB; */
+  /* background-color: #7D31D4; */
   /* background-color: #CCCCCC; */
   /* background-color: #eeeeee; */
   border: 1px solid #4C5048;
@@ -266,19 +266,19 @@ a {
 
 .button:hover {
   /* filter: brightness(60%); */
-  color: #eeeeee;
-  color: #fff;
+  /* color: #eeeeee; */
+  /* color: #fff; */
   /* background-color: black; */
   /* background-color: #eeeeee; */
-  background-color: #495049;
-  background-color: #AB3AFC;
-  background-color: #3D29E6;
+  /* background-color: #495049; */
+  /* background-color: #AB3AFC; */
+  /* background-color: #3D29E6; */
   /* background-color: #666666; */
   /* background-color: #B329FF; */
-  background-color: #1481ba;
+  /* background-color: #1481ba; */
   /* background-color: #7D31D4; */
   /* background-color: #3e1e68; */
-  /* filter: brightness(150%); */
+  filter: brightness(140%);
   /* background-color: #5c9ead; */
   
 }
