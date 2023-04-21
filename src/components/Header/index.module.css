@@ -36,6 +36,7 @@ a {
   transform: perspective(500px) rotateY(0deg);
   border: 1px solid gold;
   border: 1px solid #EEEEEE;
+  /* border: 1px solid silver; */
 }
 
 .contentUnder .face h2,
