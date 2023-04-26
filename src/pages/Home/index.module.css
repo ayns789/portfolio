@@ -390,7 +390,7 @@
     /* width: 100%; */
   }
 }
-@media screen and (max-width: 1260px) {
+@media screen and (max-width: 1420px) {
   .boxDown > :last-child {
     margin-top: 5em;
   }
