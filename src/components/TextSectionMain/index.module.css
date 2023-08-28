@@ -1,0 +1,26 @@
+.titleParag {
+    font-weight: bold;
+    color: #7D31D4;
+  }
+  
+  .parag {
+    white-space: normal;
+  }
+  
+  .icnArrow,
+  .icnCheck {
+    display: flex;
+    margin: 0 30px;
+    overflow: hidden;
+  }
+  
+  .icnArrow svg,
+  .icnCheck svg {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+    margin-right: 1em;
+    overflow: hidden;
+    color: #5c9ead;
+  }

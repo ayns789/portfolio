@@ -5,7 +5,7 @@
 }
 
 .contentUnder {
-  width: 30vw;
+  width: 30%;
   max-width: 30em;
   min-width: 15em;
   position: absolute;
@@ -196,7 +196,7 @@ a {
 
 .background {
   position: absolute; /* fixed */
-  width: 100vw;
+  width: 100%;
   height: 36vh;
   min-width: 350px;
   /* min-height: 400px; */
@@ -224,7 +224,7 @@ a {
   left: 54%;
   animation-duration: 76s;
   animation-delay: -9s;
-  transform-origin: -20vw -2vh;
+  transform-origin: -20% -2vh;
   box-shadow: 38vmin 0 4.7890567062193234vmin currentColor;
 }
 .background span:nth-child(1) {
@@ -233,7 +233,7 @@ a {
   left: 17%;
   animation-duration: 49s;
   animation-delay: -25s;
-  transform-origin: -1vw -8vh;
+  transform-origin: -1% -8vh;
   box-shadow: 38vmin 0 5.634588453929416vmin currentColor;
 }
 .background span:nth-child(2) {
@@ -242,7 +242,7 @@ a {
   left: 11%;
   animation-duration: 93s;
   animation-delay: -98s;
-  transform-origin: 12vw 7vh;
+  transform-origin: 12% 7vh;
   box-shadow: -38vmin 0 5.389315574811514vmin currentColor;
 }
 .background span:nth-child(3) {
@@ -251,7 +251,7 @@ a {
   left: 37%;
   animation-duration: 19s;
   animation-delay: -86s;
-  transform-origin: 13vw 12vh;
+  transform-origin: 13% 12vh;
   box-shadow: -38vmin 0 5.106815949661435vmin currentColor;
 }
 .background span:nth-child(4) {
@@ -260,7 +260,7 @@ a {
   left: 47%;
   animation-duration: 36s;
   animation-delay: -46s;
-  transform-origin: 7vw 1vh;
+  transform-origin: 7% 1vh;
   box-shadow: 38vmin 0 5.048425844218009vmin currentColor;
 }
 .background span:nth-child(5) {
@@ -269,7 +269,7 @@ a {
   left: 25%;
   animation-duration: 95s;
   animation-delay: -77s;
-  transform-origin: 13vw -8vh;
+  transform-origin: 13% -8vh;
   box-shadow: -38vmin 0 5.592620043570733vmin currentColor;
 }
 .background span:nth-child(6) {
@@ -278,7 +278,7 @@ a {
   left: 47%;
   animation-duration: 64s;
   animation-delay: -47s;
-  transform-origin: 16vw -5vh;
+  transform-origin: 16% -5vh;
   box-shadow: 38vmin 0 5.6372944504054585vmin currentColor;
 }
 .background span:nth-child(7) {
@@ -287,7 +287,7 @@ a {
   left: 99%;
   animation-duration: 26s;
   animation-delay: -6s;
-  transform-origin: 9vw 12vh;
+  transform-origin: 9% 12vh;
   box-shadow: -38vmin 0 5.131966406303668vmin currentColor;
 }
 .background span:nth-child(8) {
@@ -296,7 +296,7 @@ a {
   left: 75%;
   animation-duration: 52s;
   animation-delay: -79s;
-  transform-origin: -12vw -14vh;
+  transform-origin: -12% -14vh;
   box-shadow: 38vmin 0 4.861557374331584vmin currentColor;
 }
 .background span:nth-child(9) {
@@ -305,7 +305,7 @@ a {
   left: 15%;
   animation-duration: 37s;
   animation-delay: -85s;
-  transform-origin: 6vw 17vh;
+  transform-origin: 6% 17vh;
   box-shadow: -38vmin 0 5.112302787972801vmin currentColor;
 }
 .background span:nth-child(10) {
@@ -314,7 +314,7 @@ a {
   left: 72%;
   animation-duration: 86s;
   animation-delay: -80s;
-  transform-origin: -14vw -21vh;
+  transform-origin: -14% -21vh;
   box-shadow: 38vmin 0 5.20169199903754vmin currentColor;
 }
 .background span:nth-child(11) {
@@ -323,7 +323,7 @@ a {
   left: 98%;
   animation-duration: 77s;
   animation-delay: -49s;
-  transform-origin: 3vw -11vh;
+  transform-origin: 3% -11vh;
   box-shadow: -38vmin 0 4.954270122572609vmin currentColor;
 }
 .background span:nth-child(12) {
@@ -332,7 +332,7 @@ a {
   left: 45%;
   animation-duration: 55s;
   animation-delay: -67s;
-  transform-origin: 10vw 15vh;
+  transform-origin: 10% 15vh;
   box-shadow: 38vmin 0 5.276618241118392vmin currentColor;
 }
 .background span:nth-child(13) {
@@ -341,7 +341,7 @@ a {
   left: 5%;
   animation-duration: 47s;
   animation-delay: -46s;
-  transform-origin: -13vw 5vh;
+  transform-origin: -13% 5vh;
   box-shadow: -38vmin 0 5.262117764442709vmin currentColor;
 }
 .background span:nth-child(14) {
@@ -350,7 +350,7 @@ a {
   left: 36%;
   animation-duration: 36s;
   animation-delay: -52s;
-  transform-origin: -24vw 10vh;
+  transform-origin: -24% 10vh;
   box-shadow: -38vmin 0 4.775806393041125vmin currentColor;
 }
 .background span:nth-child(15) {
@@ -359,7 +359,7 @@ a {
   left: 81%;
   animation-duration: 9s;
   animation-delay: -21s;
-  transform-origin: -4vw 0vh;
+  transform-origin: -4% 0vh;
   box-shadow: -38vmin 0 5.029488482072573vmin currentColor;
 }
 
