@@ -1,6 +1,7 @@
 import styles from './index.module.css';
 import Header from '../../components/Header/index.jsx';
 import Carousel from '../../components/Carousel/index.jsx';
+import MainProject from '../../components/MainProject/index';
 import logoBalsamiq from '../../assets/images/balsamiq_mockups_macos_bigsur_icon_190357.png';
 import logoCss from '../../assets/images/css.png';
 import logoFigma from '../../assets/images/figma.png';
@@ -24,6 +25,7 @@ const Home = () => {
       <div className={styles.contentHome}>
         <Header />
         <section className={styles.contentDownSection}>
+          <MainProject />
           <div className={styles.boxDown}>
             <div className={styles.partSlide}>
               <Carousel />
