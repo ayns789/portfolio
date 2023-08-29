@@ -381,9 +381,14 @@
     }
   }
 
-  @media screen and (max-width: 430px) {
+  /* @media screen and (max-width: 430px) {
     .boxDown > :last-child {
-      margin-top: 5em;
+      margin-top: 8em;
+    }
+  } */
+  @media screen and (max-width: 390px) {
+    .boxDown > :last-child {
+      margin-top: 13em;
     }
   }
   
