@@ -114,13 +114,6 @@ const Carousel = () => {
 
                   <div className='containerBtn'>
                     <a
-                      href='https://github.com/ayns789/kasa'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <button className='button buttonGrey'>Voir le code</button>
-                    </a>
-                    <a
                       href='https://kasa-exo.netlify.app/'
                       target='_blank'
                       rel='noopener noreferrer'
@@ -183,13 +176,6 @@ const Carousel = () => {
 
                   <div className='containerBtn'>
                     <a
-                      href='https://github.com/ayns789/les_petits_plats'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <button className='button buttonGrey'>Voir le code</button>
-                    </a>
-                    <a
                       href='https://petits-plats-exo.netlify.app/'
                       target='_blank'
                       rel='noopener noreferrer'
@@ -221,13 +207,6 @@ const Carousel = () => {
                   </p>
 
                   <div className='containerBtn'>
-                    <a
-                      href='https://github.com/ayns789/Front-End-Fisheye'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <button className='button buttonGrey'>Voir le code</button>
-                    </a>
                     <a
                       href='https://frontend-fisheye-exo.netlify.app/index.html'
                       target='_blank'
@@ -263,13 +242,6 @@ const Carousel = () => {
                   </p>
 
                   <div className='containerBtn'>
-                    <a
-                      href='https://github.com/ayns789/ohmyfood'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      <button className='button buttonGrey'>Voir le code</button>
-                    </a>
                     <a
                       href='https://ohmyfood-exo.netlify.app/index.html'
                       target='_blank'

@@ -24,3 +24,13 @@
     overflow: hidden;
     color: #5c9ead;
   }
+
+  @media screen and (max-width: 1360px) {
+ 
+  .boxParag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  }

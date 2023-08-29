@@ -18,6 +18,10 @@ import logoVScode from '../../assets/images/visual-studio.png';
 import logoWix from '../../assets/images/wix.png';
 import logoWordpress from '../../assets/images/wordpress-logo.png';
 import logoChatGpt from '../../assets/images/chatgpt-icon.png';
+import { CgNotes } from 'react-icons/cg';
+import { BsJournalBookmarkFill } from 'react-icons/bs';
+import { FaBook } from 'react-icons/fa';
+import { IoLibrary } from 'react-icons/io5';
 
 const Home = () => {
   return (
@@ -37,20 +41,32 @@ const Home = () => {
               <h2>À propos</h2>
               <div className={styles.boxText}>
                 <p>
-                  Après m’être adonné à différentes disciplines dans ma vie active, j'ai porté un
-                  intérêt accru à l'univers du numérique en 2017.
+                  &nbsp;&nbsp;&nbsp;&nbsp;Après m’être adonné à différentes disciplines dans ma vie
+                  active, j'ai porté un intérêt accru à l'univers du numérique en 2017.
                 </p>
 
                 <p>
-                  Depuis lors, j'ai approfondi mes connaissances dans ce domaine à travers un
-                  programme de formation spécialisé comprenant les éléments suivants :
+                  &nbsp;&nbsp;&nbsp;&nbsp;Depuis lors, j'ai approfondi mes connaissances dans ce
+                  domaine à travers un programme de formation spécialisé comprenant les éléments
+                  suivants :
                 </p>
 
                 <p>
-                  • Référent digital / certifications Wordpress & méthodes Agiles.
-                  <br /> • Développeur web Java ( niveau 5 ).
-                  <br /> • Concepteur développeur d'applications ( niveau 6 ).
-                  <br /> • Développeur d'application - JavaScript React ( niveau 6 ).
+                  <span className={styles.icnCheck}>
+                    <CgNotes /> Référent digital / certifications Wordpress & méthodes Agiles.
+                  </span>
+                  <span className={styles.icnCheck}>
+                    {' '}
+                    <BsJournalBookmarkFill /> Développeur web Java ( niveau 5 ).
+                  </span>
+                  <span className={styles.icnCheck}>
+                    {' '}
+                    <FaBook /> Concepteur développeur d'applications ( niveau 6 ).
+                  </span>
+                  <span className={styles.icnCheck}>
+                    {' '}
+                    <IoLibrary /> Développeur d'application - JavaScript React ( niveau 6 ).
+                  </span>
                 </p>
                 <p>N'hésitez pas à me contacter pour de plus amples informations.</p>
               </div>
