@@ -7,7 +7,7 @@ export default function MainProject() {
   return (
     <>
       <div className={style.layout}>
-        <h2 className={style.h2Layout}>Projet développé dans les conditions d'entreprise</h2>
+        <h2 className={style.h2Layout}>Projet incluant les best practices d'entreprise</h2>
         <div className={style.globalContent}>
           <TextSectionMain />
           <div className={style.rightBox}>
