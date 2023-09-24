@@ -5,6 +5,7 @@
   margin: 2em;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
 }
 
 .h2Layout {
@@ -22,16 +23,41 @@
   grid-template-columns: 50% 1fr;
 }
 
+/* /////////// */
 
+.cardLabel::before{
+  position: absolute;
+  top:2rem;
+  right: 2.4rem;
+  content: '';
+  background: #283593;
+  height: 28px;
+  width: 28px;
+  transform : rotate(45deg);
+}
+
+.cardLabel::after{
+  position: absolute;
+  content: attr(data-label);
+  top: 11px;
+  right: 32px;
+  padding: 0.5rem;
+  width: 10rem;
+  background: #3949ab;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 4px 4px 15px rgba(26, 35, 126, 0.2);
+}
 
 /* /////////// */
+
 .imgBox {
   display: flex;
   flex-direction: column;
   /* border: 2px solid brown; */
   align-items: center;
 }
-
 
 .imgMainProject {
   width: 23em;
@@ -42,6 +68,7 @@
   object-fit: contain;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
 /* /////////// */
 
 .btnBox {

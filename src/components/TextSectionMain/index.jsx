@@ -43,8 +43,8 @@ export default function TextSectionMain() {
           </span>
           <span className={style.icnCheck}>
             <TiInputChecked />
-            Git versionning professionnel ( git --amend, git log, git diff, git rebase interractive,
-            git stash / git reset ... ).
+            Git versioning professionnel ( --amend, log, diff, rebase interractive, stash / reset
+            ... ).
           </span>
           <span className={style.icnCheck}>
             <TiInputChecked />
