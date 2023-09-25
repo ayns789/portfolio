@@ -1,12 +1,12 @@
 import style from './index.module.css';
 import TextSectionMain from '../TextSectionMain';
-import Image1 from '../../assets/images/ecran1.png';
-import Image2 from '../../assets/images/ecran2.png';
+import Image1 from '../../assets/images/ecran-1.png';
+import Image2 from '../../assets/images/ecran-2.png';
 
 export default function MainProject() {
   return (
     <>
-      <div className={style.cardLabel} data-label='In Progress'>
+      <div className={style.cardLabel} data-label='En cours de développement'>
         <div className={style.layout}>
           <h2 className={style.h2Layout}>Projet incluant les best practices d'entreprise</h2>
           <div className={style.globalContent}>

@@ -28,21 +28,23 @@
 .cardLabel::before{
   position: absolute;
   top:2rem;
-  right: 2.4rem;
+  right: 2.2rem;
   content: '';
   background: #283593;
   height: 28px;
-  width: 28px;
+  /* width: 28px; */
+  width: 42px;
   transform : rotate(45deg);
 }
 
 .cardLabel::after{
   position: absolute;
   content: attr(data-label);
-  top: 11px;
+  top: 15px;
   right: 32px;
   padding: 0.5rem;
-  width: 10rem;
+  /* width: 10rem; */
+  width: 12rem;
   background: #3949ab;
   color: white;
   text-align: center;
@@ -67,14 +69,27 @@
   margin-top: 0;
   object-fit: contain;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* cursor: pointer; */
+}
+
+.imgMainProject:hover {
+  transform: scale(2);
+  transition: transform 0.5s;
 }
 
 /* /////////// */
 
 .btnBox {
   /* border: 1px solid green; */
+  margin-top: 10px;
   display: flex;
   justify-content: center;
+  
+}
+
+.btnBox button {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .btnMainProject {
