@@ -1,7 +1,7 @@
 import style from './index.module.css';
 import TextSectionMain from '../TextSectionMain';
 import Image1 from '../../assets/images/ecran-1.png';
-import Image2 from '../../assets/images/ecran-2.png';
+import Image2 from '../../assets/images/screen2.png';
 
 export default function MainProject() {
   return (
