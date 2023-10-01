@@ -68,7 +68,10 @@ const Home = () => {
                     <IoLibrary /> Développeur d'application - JavaScript React ( niveau 6 ).
                   </span>
                 </p>
-                <p>N'hésitez pas à me contacter pour de plus amples informations.</p>
+                <p>
+                  N'hésitez pas à me <a href='mailto:joly.a.idf@gmail.com'>contacter</a> pour de
+                  plus amples informations.
+                </p>
               </div>
               <div className={styles.containerIcn}>
                 <div className={styles.techContainer}>
