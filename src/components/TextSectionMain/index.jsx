@@ -52,7 +52,7 @@ export default function TextSectionMain() {
           </span>
           <span className={style.icnCheck}>
             <TiInputChecked />
-            Clean code / refactor.
+            Test Driven Development.
           </span>
           <span className={style.icnCheck}>
             <TiInputChecked />
