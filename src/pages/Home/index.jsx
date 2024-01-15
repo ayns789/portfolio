@@ -18,6 +18,8 @@ import logoVScode from '../../assets/images/visual-studio.png';
 import logoWix from '../../assets/images/wix.png';
 import logoWordpress from '../../assets/images/wordpress-logo.png';
 import logoChatGpt from '../../assets/images/chatgpt-icon.png';
+import logoJava from '../../assets/images/java_logo.png';
+import logoSpringboot from '../../assets/images/springboot_logo.png';
 import { CgNotes } from 'react-icons/cg';
 import { BsJournalBookmarkFill } from 'react-icons/bs';
 import { FaBook } from 'react-icons/fa';
@@ -93,6 +95,14 @@ const Home = () => {
                 <div className={styles.techContainer}>
                   <img src={logoReact} alt='logo React' className={styles.logoTech} />
                   <span>React</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoJava} alt='logo java' className={styles.logoTech} />
+                  <span>Java</span>
+                </div>
+                <div className={styles.techContainer}>
+                  <img src={logoSpringboot} alt='logo Springboot' className={styles.logoTech} />
+                  <span>Springboot</span>
                 </div>
                 <div className={styles.techContainer}>
                   <img src={logoGithub} alt='logo Github' className={styles.logoTech} />
