@@ -107,7 +107,7 @@ const Carousel = () => {
 
                 <div className='card-content'>
                   <h2 className='name'>Web services : API Java</h2>
-                  <p className='description'>
+                  <p className='description' style={{ marginTop: '-2px' }}>
                     CRUD contacts. <br />
                     Import & Export : Excel {'<'}={'>'} BDD. <br />
                     JPQL & SQL natif. <br />
@@ -141,7 +141,7 @@ const Carousel = () => {
 
                 <div className='card-content'>
                   <h2 className='name'>Projet de formation : site immobilier</h2>
-                  <p className='description'>
+                  <p className='description' style={{ marginTop: '-2px' }}>
                     React / react router / props. <br />
                     Utilisation du context de l'API. <br />
                     Url dynamiques selon des id produits. <br />
@@ -235,7 +235,7 @@ const Carousel = () => {
 
                 <div className='card-content'>
                   <h2 className='name'>Projet de formation : portfolio de photographes</h2>
-                  <p className='description'>
+                  <p className='description' style={{ marginTop: '-1px' }}>
                     Accent sur l'accessibilité / Aria. <br />
                     Utilisation esLint pour la robustesse du code. <br />
                     Design pattern Factory / Constructor. <br />
