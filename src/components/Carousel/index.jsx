@@ -6,6 +6,8 @@ import slideVideo4 from '../../assets/videos/retouche_petits_plats.mp4';
 import slideVideo5 from '../../assets/videos/retouche_fisheye_resize.mp4';
 import slideVideo6 from '../../assets/videos/retouche_ohmyfood.mp4';
 
+import imgJavaProject from '../../assets/images/java-with-springboot.png';
+
 import 'swiper/css';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css/navigation';
@@ -91,6 +93,40 @@ const Carousel = () => {
                   </a>
                 </div>
               </SwiperSlide>
+
+              {/* ////////////////// */}
+
+              <SwiperSlide className='card swiper-slide'>
+                <div className='image-content'>
+                  <span className='overlay'></span>
+                  {/* ---- video ---- */}
+                  <div className='card-image'>
+                    <img src={imgJavaProject} alt='' className='card-imgJavaProject' />
+                  </div>
+                </div>
+
+                <div className='card-content'>
+                  <h2 className='name'>Web services : API Java</h2>
+                  <p className='description'>
+                    CRUD contacts. <br />
+                    Import & Export : Excel {'<'}={'>'} BDD. <br />
+                    JPQL & SQL natif. <br />
+                    Gestion des exceptions. <br />
+                    Junit & Mockito. <br />
+                    BDD ProstgreSql.
+                  </p>
+
+                  <a
+                    href='https://github.com/ayns789/api-contact-book'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <button className='button'>Voir le code</button>
+                  </a>
+                </div>
+              </SwiperSlide>
+
+              {/* ////////////////// */}
 
               <SwiperSlide className='card swiper-slide'>
                 <div className='image-content'>
